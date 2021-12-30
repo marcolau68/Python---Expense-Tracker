@@ -385,7 +385,6 @@ def time_income(time):
     c = conn.cursor()
 
     income = 0
-    time_income_list = []
 
     if time == 'day':
         today = datetime.date.today()
